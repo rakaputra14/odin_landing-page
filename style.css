@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    display: flex;
+    align-items: baseline;
+}
+
+cite {
+    display: block;
+    text-align: end;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  margin: 10px 0px 10px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
