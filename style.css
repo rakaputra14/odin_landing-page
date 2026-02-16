@@ -1,35 +1,59 @@
-header {
+body {
+    margin: 0;
+}
+
+/* Wrap the body */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+}
+
+/* Dark background */
+.section-dark {
+    background-color: #1f2937;
+    color: white;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/* end */
+
+/* header */
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
-.information {
-    margin-top: 25px;
+.links {
     display: flex;
-    justify-content: space-around;
-}
-
-.hero {
-    display: flex;
-    align-items: baseline;
-}
-
-cite {
-    display: block;
-    text-align: end;
-}
-
-ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
-  display: flex;
-  margin: 10px 0px 10px;
-}
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
 
 a {
-  font-size: 22px;
-  background: white;
-  padding: 8px;
-  /* this removes the line under the links */
-  text-decoration: none;
+    text-decoration: none;
+    color: #e5E7EB;
+    font-size: 18px;
+ }
+/* End */
+
+/* Hero */
+.hero {
+    display: flex;
+    flex: 0 0 auto;
+    margin: auto;
+    gap: 10px;
 }
+
+img {
+    max-height: 200px;
+
+}
+/* end */
